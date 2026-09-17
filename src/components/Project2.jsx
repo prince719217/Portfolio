@@ -52,12 +52,12 @@ const Project2 = () => {
     // )
 
   return (
-    <div className='flex flex-col xl:flex-row p-10 gap-14 justify-center xl:items-start items-center'>
-        <div className="image border-2 border-gray-600 xl:w-6/10 p-4">
-            <img src={image} className='' alt="Xclone" />
+    <div className='flex flex-col xl:flex-row p-4 sm:p-6 xl:p-10 gap-8 xl:gap-14 justify-center xl:items-start items-center w-full overflow-hidden'>
+        <div className="image border-2 border-gray-600 w-full xl:w-6/10 max-w-full p-2 sm:p-4 overflow-hidden">
+            <img src={image} className="w-full max-w-full h-auto object-contain" alt="Xclone" />
         </div>
-        <div className="content text-white space-y-2 xl:w-3/10 w-8/10 ">
-            <h1 className='text-4xl font-bold'>Spotify Frontend Clone</h1>
+        <div className="content text-white space-y-2 w-full xl:w-3/10 min-w-0">
+            <h1 className='text-3xl sm:text-4xl font-bold break-words'>Spotify Frontend Clone</h1>
             <p className='text-gray-300'>UI layout of Spotify using only HTML , CSS and JS. The goal was to practice real-world layout structuring and styling techniques.</p>
 
             <h2 className='text-gray-400 mt-4'>Key Features</h2>
@@ -73,7 +73,7 @@ const Project2 = () => {
                 <button className='bg-[#161616] border-2 border-gray-600 m-2 px-4 py-1 rounded '>css</button>
                 <button className='bg-[#161616] border-2 border-gray-600 m-2 px-4 py-1 rounded '>js</button>
               </div>
-              <div className='-mt-2 flex'>
+              <div className='-mt-2 flex flex-wrap'>
                   <a href='https://prince719217.github.io/my-project/' target='_value' className='bg-sky-300 flex items-center gap-2 text-lg w-fit font-medium m-2 px-4 py-1 rounded-2xl'><FaEye /> Live Preview</a>
                 <a href='https://github.com/prince719217/my-project' target='_value' className='bg-[#161616] border-2 border-gray-600 m-2 px-4 py-1 rounded-2xl flex items-center gap-2 text-lg'><FaGithub />Github</a>
               </div>

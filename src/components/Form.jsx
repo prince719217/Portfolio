@@ -54,15 +54,15 @@ const Form = () => {
       <form
         ref={formRef}
         onSubmit={sendEmail}
-        className="outline-1 outline-gray-500 gap-10 p-8 rounded-2xl xl:w-1/2 w-7/10 xl:h-[50vh] h-[40vh] flex justify-self-center flex-col"
+        className="outline-1 outline-gray-500 gap-6 sm:gap-8 p-4 sm:p-6 md:p-8 rounded-2xl w-full max-w-2xl xl:w-1/2 min-h-[360px] xl:h-[50vh] flex justify-self-center flex-col box-border"
       >
-        <div className="flex xl:flex-row flex-col gap-5 xl:gap-0 px-5">
+        <div className="flex xl:flex-row flex-col gap-4 xl:gap-0 px-0 sm:px-5 w-full min-w-0">
 
           <input
             type="text"
             name="name"
             required
-            className="outline-1 rounded-xl xl:w-2/5 w-full m-auto text-gray-200 p-3 outline-gray-500"
+            className="outline-1 rounded-xl xl:w-2/5 w-full min-w-0 m-auto text-gray-200 p-3 outline-gray-500 box-border"
             placeholder="Name"
           />
 
@@ -70,7 +70,7 @@ const Form = () => {
             type="email"
             name="email"
             required
-            className="outline-1 rounded-xl xl:w-2/5 w-full m-auto text-gray-200 p-3 outline-gray-500"
+            className="outline-1 rounded-xl xl:w-2/5 w-full min-w-0 m-auto text-gray-200 p-3 outline-gray-500 box-border"
             placeholder="Email"
           />
 
@@ -80,12 +80,12 @@ const Form = () => {
           name="message"
           required
           placeholder="Message"
-          className="outline-1 rounded-xl w-8/10 xl:mt-0 -mt-5 xl:w-[85%] m-auto text-gray-200 p-3 outline-gray-500"
+          className="outline-1 rounded-xl w-full xl:mt-0 m-auto text-gray-200 p-3 outline-gray-500 min-h-28 resize-y box-border"
         ></textarea>
 
         <button
           type="submit"
-          className="bg-purple-400 w-[86%] xl:mt-0 -mt-8 m-auto p-3 text-white font-bold rounded-2xl"
+          className="bg-purple-400 w-full xl:w-[86%] m-auto p-3 text-white font-bold rounded-2xl"
         >
           Send Message
         </button>

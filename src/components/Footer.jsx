@@ -27,7 +27,7 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 
   return (
     <div className='space-y-20 pt-32 footer'>
-          <h1 className="xl:text-9xl text-7xl font-extrabold bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent">
+          <h1 className="text-5xl sm:text-7xl xl:text-9xl font-extrabold break-words bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent">
         Prince Gupta
       </h1>
 

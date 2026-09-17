@@ -1,4 +1,5 @@
 import React from "react";
+
 import LandingPage from "./components/LandingPage";
 import Navbar from "./components/Navbar";
 import CustomCursor from "./components/CustomCursor";
@@ -15,30 +16,34 @@ import Form from "./components/Form";
 
 const App = () => {
   return (
-    <div className="bg-black p-1">
-      <LandingPage/> 
-      <CustomCursor/>
+    <div className="bg-black p-1 overflow-x-hidden">
+      <LandingPage />
+
+      <CustomCursor />
+
       <div
         className="
-  min-h-screen
-  
-  bg-[linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)]
-  bg-[size:43px_43px]   
-"
+          min-h-screen
+          bg-[linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)]
+          bg-[size:43px_43px]
+        "
       >
         <Navbar />
         <Section1 />
       </div>
+
       <Section2 />
       <Toaster />
-      <Section3/>
-      <Section4/>
-      <Section5/>
-      <Section6/>
-{/* 
-     <Routes>
-      <Route path="/contact" element={<Form/>}></Route>
-     </Routes> */}
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6 />
+
+      {/*
+      <Routes>
+        <Route path="/contact" element={<Form />}></Route>
+      </Routes>
+      */}
     </div>
   );
 };

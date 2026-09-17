@@ -56,9 +56,12 @@ const Education = () => {
 
     <div
       className="
-        orbit xl:scale-100 scale-75
-        w-[500px]
-        h-[500px]
+        orbit
+        w-[min(500px,92vw)]
+        h-[min(500px,92vw)]
+        scale-75
+        sm:scale-90
+        xl:scale-100
         relative
         flex
         items-center
@@ -73,8 +76,8 @@ const Education = () => {
         className="
           orbit-ring
           absolute
-          w-[380px]
-          h-[380px]
+          w-[76%]
+          h-[76%]
           top-[50%]
           left-[50%]
           -translate-x-1/2
@@ -177,8 +180,8 @@ const Education = () => {
           left-[50%]
           -translate-x-1/2
           -translate-y-1/2
-          w-[250px]
-          h-[250px]
+          w-[50%]
+          h-[50%]
           rounded-full
           overflow-hidden
           border-2

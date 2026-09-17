@@ -95,7 +95,7 @@ const Section5 = () => {
 
       </div>
 
-    <div className="w-full flex justify-center items-center mt-16 sm:mt-20 md:mt-24 xl:mt-30">
+    <div className="w-full max-w-full flex justify-center items-center mt-12 sm:mt-20 md:mt-24 xl:mt-30 min-w-0">
 
   {/* Left button */}
   <button
@@ -114,7 +114,7 @@ const Section5 = () => {
   </div>
 
   {/* Mobile / Tablet */}
-  <div className="certificate flex xl:hidden justify-center min-w-0 flex-1">
+  <div className="certificate flex xl:hidden justify-center min-w-0 flex-1 max-w-full">
     <Certificate {...getCertificate(0)} />
   </div>
 

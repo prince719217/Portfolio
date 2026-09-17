@@ -4,7 +4,6 @@ import education from "../assets/educationIcon.svg";
 import higherEducation from "../assets/higherEducation.svg";
 import secondaryEducation from "../assets/secondaryEducation.svg";
 import certificate from "../assets/certificate.svg";
-
 import Tags from "./Tags";
 
 const Schooling = () => {
@@ -14,7 +13,8 @@ const Schooling = () => {
   return (
     <div
       className="
-        w-[90vw]
+        w-[calc(100vw-1rem)]
+        sm:w-[90vw]
         xl:w-[50vw]
         max-w-full
         border-2
@@ -86,7 +86,7 @@ const Schooling = () => {
       {/* Education */}
       {educationView && (
         <div className="flex flex-col pb-4 -space-y-2 w-full">
-
+          
           {/* College */}
           <Tags
             education={education}
@@ -115,7 +115,6 @@ const Schooling = () => {
             college="YSY International School"
             cource="Higher Secondary"
           />
-
         </div>
       )}
     </div>
@@ -123,4 +122,3 @@ const Schooling = () => {
 };
 
 export default Schooling;
-
