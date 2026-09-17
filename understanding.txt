@@ -1,0 +1,3 @@
+npm i three gsap
+npm install three @types/three @react-three/fiber
+(It is a React library that allows you to create 3D graphics and 3D scenes using Three.js with React.)
