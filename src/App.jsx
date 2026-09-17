@@ -16,7 +16,7 @@ import Form from "./components/Form";
 const App = () => {
   return (
     <div className="bg-black p-1">
-      <LandingPage/> 
+      {/* <LandingPage/>  */}
       <CustomCursor/>
       <div
         className="
