@@ -5,7 +5,7 @@ import { IoLogoLinkedin } from "react-icons/io";
 
 const Section1 = () => {
   return (
-    <div className="text-white flex min-h-[84vh] md:h-[84vh] gap-5 md:gap-6 md:mt-0 mt-40 justify-center items-center flex-col px-4 overflow-hidden">
+    <div className="text-white flex min-h-[84vh] md:h-[84vh] gap-5 md:gap-6 justify-center items-center flex-col px-4 overflow-hidden">
       <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold text-center">Prince Gupta</h1>
       <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold text-center">Frontend Developer</h3>
 
